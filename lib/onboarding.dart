@@ -14,8 +14,20 @@ class _OnBoardingState extends State<OnBoarding> {
         children: <Widget>[
           PageView.builder(
             itemBuilder: ( context , index){
-
+              return Stack(
+                children: <Widget>[
+                  Container(),
+                  Column(
+                    children: <Widget>[
+                      Icon(Icons.ac_unit),
+                      Text('Welcome'),
+                      Text('Making frindes easy as waving'),
+                    ],
+                  )
+                ],
+              );
             },
+            itemCount: 4,
           )
         ],
       ),
