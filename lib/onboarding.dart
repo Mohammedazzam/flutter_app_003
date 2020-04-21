@@ -38,6 +38,10 @@ class _OnBoardingState extends State<OnBoarding> {
               );
             },
             itemCount: 4,
+          ),
+          RaisedButton(
+            child: Text('GET STARTED'),
+            onPressed: (){},
           )
         ],
       ),
