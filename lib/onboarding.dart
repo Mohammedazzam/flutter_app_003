@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 
@@ -18,10 +19,12 @@ class _OnBoardingState extends State<OnBoarding> {
                 children: <Widget>[
                   Container(),
                   Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       Icon(Icons.ac_unit),
                       Text('Welcome'),
-                      Text('Making frindes easy as waving'),
+                      Text('Making frindes easy as waving Making frindes easy as waving'),
                     ],
                   )
                 ],
