@@ -17,7 +17,14 @@ class _OnBoardingState extends State<OnBoarding> {
             itemBuilder: ( context , index){
               return Stack(
                 children: <Widget>[
-                  Container(),
+                  Container(
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                          image: ExactAssetImage('assets/images/bg.png'),
+                          fit: BoxFit.cover
+                      ),
+                    ) ,
+                  ),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     mainAxisAlignment: MainAxisAlignment.center,
