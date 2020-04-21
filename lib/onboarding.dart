@@ -29,9 +29,10 @@ class _OnBoardingState extends State<OnBoarding> {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      Icon(Icons.ac_unit),
-                      Text('Welcome'),
-                      Text('Making frindes easy as waving Making frindes easy as waving'),
+                      Icon(Icons.ac_unit,size: 150,color: Colors.white,),
+                      Text('Welcome',style: TextStyle(color: Colors.white),),
+                      Text('Making frindes easy as waving Making frindes easy as waving',
+                      style: TextStyle(color: Colors.white),),
                     ],
                   )
                 ],
