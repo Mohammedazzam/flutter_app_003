@@ -41,9 +41,14 @@ class _OnBoardingState extends State<OnBoarding> {
           ),
           Align(//بمعنى المحاذاه
             alignment: Alignment.bottomCenter,
-            child: RaisedButton(
-              child: Text('GET STARTED'),
-              onPressed: (){}, //بمعنى عند الدعس
+            child: Padding(
+              padding: const EdgeInsets.only(bottom: 24),
+              child: RaisedButton(
+                color: Colors.red.shade800,
+                child: Text('GET STARTED',style: TextStyle(color:Colors.white),
+                ),
+                onPressed: (){}, //بمعنى عند الدعس
+              ),
             ),
           )
         ],
