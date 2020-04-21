@@ -39,9 +39,12 @@ class _OnBoardingState extends State<OnBoarding> {
             },
             itemCount: 4,
           ),
-          RaisedButton(
-            child: Text('GET STARTED'),
-            onPressed: (){},
+          Align(//بمعنى المحاذاه
+            alignment: Alignment.bottomCenter,
+            child: RaisedButton(
+              child: Text('GET STARTED'),
+              onPressed: (){}, //بمعنى عند الدعس
+            ),
           )
         ],
       ),
