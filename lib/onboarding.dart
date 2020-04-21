@@ -10,8 +10,14 @@ class _OnBoardingState extends State<OnBoarding> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        color: Colors.blue,
+      body: Stack(
+        children: <Widget>[
+          PageView.builder(
+            itemBuilder: ( context , index){
+
+            },
+          )
+        ],
       ),
     );
   }
